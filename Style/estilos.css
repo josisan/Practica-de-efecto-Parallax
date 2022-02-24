@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(C:/Users/josia/OneDrive/Desktop/Parallax/img/madera.png);
+    background-repeat: repeat; /*Hacemmos que se repita la immagen*/
+    /*background-size: cover; Encajamos la imagen al 100% del ancho*/
+    background-attachment: fixed;/*Hacemos que la imagen quede fija*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.H{
+    width: 15%;
+    position:fixed;
+}
+
+article{
+    background-color: rgba(24,8,33,.9);
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+article h2{
+    color: #fff;
+}
+
+article hr{
+  background: #F64740;
+  height: 5px;
+  border: none;
+}
+
+article p{
+    line-height: 25px;
+}
+
+article h2, article hr, article p{
+    margin-bottom: 20px;
+}
